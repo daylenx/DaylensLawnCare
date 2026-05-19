@@ -161,7 +161,8 @@ h1, h2, h3, .logo { font-family: 'Nunito', sans-serif; }
 .services-section { padding: 90px 24px; max-width: 1000px; margin: 0 auto; }
 
 .services-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+  max-width: 680px; margin: 0 auto;
 }
 
 @media (max-width: 660px) {
